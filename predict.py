@@ -5,7 +5,7 @@ import torch
 class Predictor:
     def __init__(self):
         base_model_id = "microsoft/phi-2"
-        lora_path = "pointserv/fanniemae-2"
+        lora_path = "https://huggingface.co/pointserv/fanniemae-phi-2-lora"
 
         self.tokenizer = AutoTokenizer.from_pretrained(base_model_id)
 
