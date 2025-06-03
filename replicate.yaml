@@ -1,0 +1,8 @@
+config:
+  image: "r8.im/replicate/cuda"  # Use GPU image
+  input:
+    prompt:
+      type: string
+      description: "Text prompt to complete"
+  output:
+    type: string
